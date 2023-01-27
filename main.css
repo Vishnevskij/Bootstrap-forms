@@ -1,0 +1,72 @@
+body {
+    margin:0;
+    padding:0;
+    display:flex;
+    margin:auto;
+}
+main {
+    padding:40px;
+    width:70%;
+    height:auto;
+    margin:auto;
+    display:flex;
+}
+main > form {
+    width:80%;
+}
+.flex {
+    display:flex;
+}
+.flex-row {
+    flex-direction:row;
+}
+.flex-column {
+    flex-direction: column;
+}
+.header {
+    width:100%;
+height:auto;
+align-items: center;
+justify-content: center;
+}
+.left-side {
+    width:70%;
+    height:100%;
+    border-bottom:1px solid grey;
+}
+.right-side {
+    width:30%;
+    height:400px;
+}
+.header p {
+    margin-bottom:0px;
+}
+section {margin-top:50px;
+}
+main section .name input {
+  width:335px;
+}
+main section .name {
+    gap:30px;
+}
+
+.header p {
+    font-size:1.25rem;
+    font-weight: 300;
+}
+
+.cards {
+    gap:30px;
+    margin-bottom:20px;
+    
+
+}
+
+.cards select.country {
+    width:290px;}
+.cards select.state {
+    width:230px;
+}
+.cards input.zip {
+    width: 120px;
+}
