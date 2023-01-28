@@ -1,21 +1,28 @@
 body {
-    margin:0;
-    padding:0;
-    display:flex;
-    margin:auto;
-}
-main {
-    padding:40px;
-    width:70%;
-    height:auto;
-    margin:auto;
-    display:flex;
-   
     
+    width:100vw;
+    height:100%;
+   display:flex;
+   background-color: #F8F9FA;
+   justify-content: center;
+   padding:0;
+}
+main {display: flex;
+    align-items: center;
+    justify-content: center;
+font-size:14px;
+    
+        width:70%;
+    height:auto;
+        display:flex;
+        background-color: #F8F9FA;
+       
 }
 main > form {
-    width:80%;
+    width:82%;
+  
 }
+
 .flex {
     display:flex;
 }
@@ -32,11 +39,11 @@ align-items: center;
 justify-content: center;
 }
 .left-side {
-    width:70%;
+    width:55%;
     height:100%;
     }
 .right-side {
-    width:30%;
+    width:27%;
     height:400px;
 }
 .header p {
@@ -45,7 +52,7 @@ justify-content: center;
 section {margin-top:50px;
 }
 main section .name input {
-  width:335px;
+  width:290px;
 }
 main section .name {
     gap:30px;
@@ -61,16 +68,17 @@ main section .name {
     gap:30px;
     width:100%;
     height:auto;
+    justify-content: center;
         
 }
 
 .cards select.country {
-    width:290px;}
+    width:236px;}
 .cards select.state {
-    width:230px;
+    width:183px;
 }
 .cards input.zip {
-    width: 120px;
+    width: 130px;
     
 }
 main section .center {
@@ -98,10 +106,72 @@ main section .cvv {
     border-bottom:1px solid lightgrey;
 }
 main section .cvv input {
-    width:150px;
+    width:130px;
     margin-bottom:10px;
 }
 main section .btn {
     width:100%;
     border-top:1px solid lightgrey;
 }
+
+main section .header-right {
+    width:100%;
+    height:auto;
+    justify-content: space-between;
+}
+main section .badge {
+    background-color: #6c757d;
+    display:flex;
+border-radius:100%;
+width:30px;
+height:27px;
+}
+main section .badge span {
+    color:white;
+   margin-left:2px;
+   margin-top:-1px;
+    font-size:18px;
+}
+
+main section .fw-bold {
+    font-size:16px;
+padding:0;
+margin-bottom:-5px;
+}
+
+main section .green {color:#28A745;
+background-color:#F8F9FA;
+font-size:14px;
+}
+main section .list-group-item  {
+    padding:12px;
+    font-size:14px;
+}
+main section .list-huge {
+    padding:15px;
+}
+main section .list-group-item-first {;
+border-bottom:2px solid lightgrey;
+}
+
+.header-right h4 {color:#6C757D;
+}
+
+main section .input-group {
+    width:290px;
+}
+main section .second-card .btn {
+    width:80px;
+}
+.second-card {
+    padding:7px;
+    height:55px;
+    padding-bottom:0px;
+    background-color: white;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+}
+main section .fw-bold {font-size:14px;
+    color:rgb(97, 95, 95);
+}
+
