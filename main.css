@@ -48,7 +48,7 @@ justify-content: center;
 section {margin-top:50px;
 }
 main section .name input {
-  width:290px;
+  width:285px;
 }
 main section .name {
     gap:30px;
@@ -74,7 +74,7 @@ main section .name {
     width:183px;
 }
 .cards input.zip {
-    width: 130px;
+    width: 120px;
     
 }
 main section .center {
@@ -108,7 +108,7 @@ main section .cvv {
     border-bottom:1px solid lightgrey;
 }
 main section .cvv input {
-    width:130px;
+    width:125px;
     margin-bottom:10px;
 }
 main section .btn {
