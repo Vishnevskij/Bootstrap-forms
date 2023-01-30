@@ -224,3 +224,11 @@ main section .list-text1 {
 #basic-addon3 {
     background-color: #E9ECEF;
 }
+.wrapper {position:absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width:100%;
+    background-color: #F8F9FA;
+}
