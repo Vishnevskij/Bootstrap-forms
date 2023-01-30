@@ -54,6 +54,10 @@ main section .name {
     gap:30px;
     
 }
+main section .square-border input  {
+    border-top-right-radius:  0px;
+    border-bottom-right-radius:  0px;
+}
 
 .header p {
     font-size:1.25rem;
